@@ -32,7 +32,7 @@ class LibraryExtractor:
 
         try:
             # Using Python's built=in context manager (with open) for safe resource handling
-            with open(self.file_path, "r", encoding="utf-8") as file:
+            with open(self.file_path, mode="r", encoding="utf-8") as file:
                 reader = csv.DictReader(file)
                 for row in reader:
                     raw_rows.append(row)
