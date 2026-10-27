@@ -1,0 +1,9 @@
+# Virtual Environment
+venv/
+
+# Database
+*.db
+
+# Python Cache and log
+__pycache__/
+*.log
