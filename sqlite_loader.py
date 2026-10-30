@@ -22,7 +22,7 @@ class LibraryLoader:
 
                 # Step 1: Create target table if missing
                 cursor.execute("""
-                    CREATE TABLE IF NOT EXIST library_loans (
+                    CREATE TABLE IF NOT EXISTS library_loans (
                         loan_id INTEGER PRIMARY KEY,
                         member_id TEXT NOT NULL,
                         book_title TEXT NOT NULL,

@@ -91,7 +91,7 @@ class LibraryTransformer:
                 return None
 
             # Safely coerce string float, with fallback safety
-            fine_paid_raw = str(row["fine_paid_row"]).strip()
+            fine_paid_raw = str(row["fine_paid"]).strip()
             try:
                 fine_paid = float(fine_paid_raw)
             except ValueError:

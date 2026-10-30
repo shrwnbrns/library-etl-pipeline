@@ -2,10 +2,10 @@ loan_id,member_id,book_title,category,days_borrowed,fine_paid
 101,M001,Python Crash Course,Technology,14,0.00
 102,M002,Clean Code,Technology,fourteen,5.50
 ,M003,Database Systems,Technology,7,0.00
-101,M001,Python Crash Course,Technology,14,0.00
-103,M004,Algorithms,Computer Science,-3,0.00
-104,,Refactoring,Technology,10,1.20
-105,M005,Design Patterns,Technology,5,free
+103,M003,Python Crash Course,Technology,14,0.00
+104,M004,Algorithms,Computer Science,-3,0.00
+105,,Refactoring,Technology,10,1.20
+106,M005,Design Patterns,Technology,5,free
 106,M006,System Design,Architecture,21,2.50
 107,M007,The Pragmatic Programmer,Career,0,0.00
-106,M006,System Design,Architecture,21,2.50
+108,M008,System Design,Architecture,21,2.50
